@@ -71,8 +71,4 @@ public class Main {
         System.out.println(input1 + " summed by " + input2 + " = " + (input1 + input2));
 
     }
-    //"input1 summed by input2 = 24".
-
-
-
 }
