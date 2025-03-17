@@ -34,10 +34,11 @@ public class Bonusifelse {
         System.out.print(" Wat is jouw mening over Trump: " );
         String meningTrump = scanner.nextLine();
         scanner.nextLine();
-        textLength(meningTrump);
+        lengthText(meningTrump);
 
 
     }
+
     // OPDR 1
     public static void evenOddChecker(int number) {
         if (number % 2 == 0) {
@@ -100,15 +101,20 @@ public class Bonusifelse {
         }
     }
 
+
     // OPDR 6
-    public static void textlength(String text) {
+    public static void lengthText (String text) {
         int length = text.length();
         String check = "lang";
-        if (length < 10){
+        if (length < 10) {
             check = "kort";
-        } else if (length < 20){
+        } else if (length < 20) {
             check = "middellang";
         }
-        System.out.println("De tekst is "+ check);
+        System.out.println("De tekst is " + check);
     }
+
+
+
+
 }
